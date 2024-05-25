@@ -10,7 +10,7 @@ class_name = ["airplane", "automobile" , "bird" , "cat" , "deer" , "dog" , "frog
 # Create a function to load my saved model
 @st.cache_resource
 def load_my_model():
-    model = tf.keras.models.load_model("my_model.h5")
+    model = tf.keras.models.load_model("my_model_modify.h5")
     return model
 
 model = load_my_model()
